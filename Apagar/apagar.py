@@ -16,3 +16,5 @@ def ejecutar_comando_ssh(host, usuario, contraseña, comando):
     return salida, error
   except Exception as e:
     return None, str(e)
+    
+def ejecutar_apagado():
