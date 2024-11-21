@@ -74,6 +74,8 @@ contraseña_entry.bind("<KeyRelease>", habilitar_boton)
 btn_apagar = tk.Button(root, text="Apagar", command=ejecutar_apagado, state=tk.DISABLED)
 btn_apagar.pack(pady=20)
 
+root.mainloop()
+
 
 
 
