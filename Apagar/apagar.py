@@ -10,3 +10,4 @@ def ejecutar_comando_ssh(host, usuario, contraseña, comando):
     stdin, stdout, stderr = ssh_client.exec_command(comando)
     stdin.write(contraseña + '\n')
     stdin.flush()
+    salida = stdout.read().decode("utf-8")
