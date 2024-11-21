@@ -59,6 +59,7 @@ tk.Label(root, text="Apagar la computadora de un usuario/cliente").pack(pady=10)
 tk.Label(root, text="Ip de la computadora:").pack(anchor="w", padx=20)
 host_entry = tk.Entry(root)
 host_entry.pack(fill="x", padx=20)
+host_entry.bind("<KeyRelease>", habilitar_boton)
 
 
 
