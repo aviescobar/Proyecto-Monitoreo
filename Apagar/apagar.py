@@ -27,6 +27,8 @@ def ejecutar_apagado():
 
   salida, error = ejecutar_comando_ssh(host, usuario, contraseña, comando_contraseña)
 
+  if error and "contraseña para" in error:
+
 
 
 
