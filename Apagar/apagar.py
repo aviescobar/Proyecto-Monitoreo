@@ -15,3 +15,4 @@ def ejecutar_comando_ssh(host, usuario, contraseña, comando):
     ssh_client.close()
     return salida, error
   except Exception as e:
+    return None, str(e)
