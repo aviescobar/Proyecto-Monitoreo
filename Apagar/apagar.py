@@ -13,3 +13,4 @@ def ejecutar_comando_ssh(host, usuario, contraseña, comando):
     salida = stdout.read().decode("utf-8")
     error = stderr.read().decode("utf-8")
     ssh_client.close()
+    return salida, error
