@@ -18,3 +18,4 @@ def ejecutar_comando_ssh(host, usuario, contraseña, comando):
     return None, str(e)
     
 def ejecutar_apagado():
+  host = host_entry.get()
