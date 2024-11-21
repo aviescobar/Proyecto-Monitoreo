@@ -38,6 +38,8 @@ def habilitar_boton(event=None):
     btn_apagar.config(state=tk.NORMAL)
   else:
     btn_apagar.config(state=tk.DISABLED)
+    
+root = tk.Tk()
 
 
 
