@@ -35,6 +35,7 @@ def ejecutar_apagado():
 
 def habilitar_boton(event=None):
   if host_entry.get() and usuario_entry.get() and contraseña_entry.get():
+    btn_apagar.config(state=tk.NORMAL)
 
 
 
