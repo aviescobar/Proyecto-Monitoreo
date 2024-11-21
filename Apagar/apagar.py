@@ -34,6 +34,7 @@ def ejecutar_apagado():
     messagebox.showinfo("Éxito", "El equipo Ubuntu se ha apagado correctamente.")
 
 def habilitar_boton(event=None):
+  if host_entry.get() and usuario_entry.get() and contraseña_entry.get():
 
 
 
