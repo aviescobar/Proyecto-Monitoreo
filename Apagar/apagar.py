@@ -56,6 +56,8 @@ root.geometry(f"380x380+{x}+{y}")
 
 tk.Label(root, text="Apagar la computadora de un usuario/cliente").pack(pady=10)
 
+tk.Label(root, text="Ip de la computadora:").pack(anchor="w", padx=20)
+
 
 
 
