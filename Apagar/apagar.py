@@ -31,6 +31,7 @@ def ejecutar_apagado():
 
     messagebox.showinfo("Éxito", "El equipo Ubuntu se ha apagado correctamente.")
   else:
+    messagebox.showinfo("Éxito", "El equipo Ubuntu se ha apagado correctamente.")
 
 
 
