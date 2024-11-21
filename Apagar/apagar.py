@@ -50,6 +50,7 @@ screen_height = root.winfo_screenheight()
 
 # Calcular la posición para centrar la ventana
 x = (screen_width // 2) - (380 // 2)
+y = (screen_height // 2) - (380 // 2)
 
 
 
