@@ -7,3 +7,4 @@ def ejecutar_comando_ssh(host, usuario, contraseña, comando):
     ssh_client = paramiko.SSHClient()
     ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh_client.connect(hostname=host, username=usuario, password=contraseña)
+    stdin, stdout, stderr = ssh_client.exec_command(comando)
