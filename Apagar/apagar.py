@@ -42,6 +42,7 @@ def habilitar_boton(event=None):
 root = tk.Tk()
 root.title("Apagar PC remoto")
 root.geometry("380x380")
+root.resizable(False, False)
 
 
 
