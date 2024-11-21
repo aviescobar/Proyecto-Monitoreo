@@ -29,6 +29,8 @@ def ejecutar_apagado():
 
   if error and "contraseña para" in error:
 
+    messagebox.showinfo("Éxito", "El equipo Ubuntu se ha apagado correctamente.")
+
 
 
 
