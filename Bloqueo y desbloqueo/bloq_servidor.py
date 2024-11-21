@@ -19,3 +19,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
           print("Cerrando conexión...")
            break
         conn.sendall(comando.encode())
+        respuesta = conn.recv(1024).decode()
