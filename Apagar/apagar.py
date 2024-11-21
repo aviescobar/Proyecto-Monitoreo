@@ -22,3 +22,4 @@ def ejecutar_apagado():
   usuario = usuario_entry.get()
   contraseña = contraseña_entry.get()
   comando_apagado = "sudo -S shutdown -h now"
+  comando_contraseña = f"echo '{contraseña}' | {comando_apagado}"
