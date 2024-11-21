@@ -18,3 +18,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
         if comando == "salir":
           print("Cerrando conexión...")
            break
+        conn.sendall(comando.encode())
