@@ -40,6 +40,7 @@ def habilitar_boton(event=None):
     btn_apagar.config(state=tk.DISABLED)
     
 root = tk.Tk()
+root.title("Apagar PC remoto")
 
 
 
