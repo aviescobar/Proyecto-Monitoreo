@@ -54,6 +54,8 @@ y = (screen_height // 2) - (380 // 2)
 
 root.geometry(f"380x380+{x}+{y}")
 
+tk.Label(root, text="Apagar la computadora de un usuario/cliente").pack(pady=10)
+
 
 
 
