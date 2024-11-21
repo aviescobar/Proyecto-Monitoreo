@@ -23,3 +23,25 @@ def ejecutar_apagado():
   contraseña = contraseña_entry.get()
   comando_apagado = "sudo -S shutdown -h now"
   comando_contraseña = f"echo '{contraseña}' | {comando_apagado}"
+
+
+  salida, error = ejecutar_comando_ssh(host, usuario, contraseña, comando_contraseña)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
