@@ -21,3 +21,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
         conn.sendall(comando.encode())
         respuesta = conn.recv(1024).decode()
         print(f"Respuesta del cliente: {respuesta}")
+    except KeyboardInterrupt:
