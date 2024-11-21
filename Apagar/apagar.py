@@ -64,6 +64,7 @@ host_entry.bind("<KeyRelease>", habilitar_boton)
 tk.Label(root, text="Nombre de usuario de la computadora:").pack(anchor="w", padx=20)
 usuario_entry = tk.Entry(root)
 usuario_entry.pack(fill="x", padx=20)
+usuario_entry.bind("<KeyRelease>", habilitar_boton)
 
 
 
