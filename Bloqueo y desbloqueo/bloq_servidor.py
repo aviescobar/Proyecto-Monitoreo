@@ -7,3 +7,4 @@ PORT = 5000
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
   server.bind((HOST, PORT))
+  server.listen(1)
