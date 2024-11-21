@@ -12,3 +12,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
   conn, addr = server.accept()
   print(f"Conexión establecida desde {addr}")
   with conn:
+    try:
