@@ -14,3 +14,5 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
   with conn:
     try:
       while True:
+        comando = input("Escribe un comando para el cliente (bloquear/desbloquear/salir): ").strip()
+        if comando == "salir":
