@@ -23,4 +23,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
         print(f"Respuesta del cliente: {respuesta}")
     except KeyboardInterrupt:
         print("\nServidor detenido.")
-      La documentación utiliza un lenguaje inadecuado, poco cla
+      La documentación utiliza un lenguaje inadecuado, poco c
