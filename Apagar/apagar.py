@@ -24,3 +24,4 @@ class ApagarPCApp:
   
    def crear_entrada(self, texto, atributo, es_contrasena=False):
       """Crea una etiqueta y entrada de texto."""
+      frame = tk.Frame(self.root, bg='white')
