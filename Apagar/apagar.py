@@ -28,3 +28,4 @@ class ApagarPCApp:
       frame.pack(pady=5, padx=10)
 
       label = tk.Label(frame, text=texto, font=("Arial", 12), bg='white', fg='black')
+      label.pack(side=tk.LEFT)
