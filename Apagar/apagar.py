@@ -5,7 +5,7 @@ import re  # Para validar la IP
 
 class ApagarPCApp:
    def __init__(self, root):
-    ssh_client = paramiko.SSHClient()
+      self.root = root
     ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh_client.connect(hostname=host, username=usuario, password=contraseña)
     stdin, stdout, stderr = ssh_client.exec_command(comando)
