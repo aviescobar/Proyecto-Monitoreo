@@ -15,6 +15,7 @@ class ApagarPCApp:
       titulo.pack(pady=10)
 
       # Entradas
+      self.crear_entrada("IP del Servidor:", "ip")
 
 
   salida, error = ejecutar_comando_ssh(host, usuario, contraseña, comando_contraseña)
