@@ -26,3 +26,5 @@ class ApagarPCApp:
       """Crea una etiqueta y entrada de texto."""
       frame = tk.Frame(self.root, bg='white')
       frame.pack(pady=5, padx=10)
+
+      label = tk.Label(frame, text=texto, font=("Arial", 12), bg='white', fg='black')
