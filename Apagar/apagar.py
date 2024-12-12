@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 import re  # Para validar la IP
 
-def ejecutar_comando_ssh(host, usuario, contraseña, comando):
+class ApagarPCApp:
   try:
     ssh_client = paramiko.SSHClient()
     ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
