@@ -8,6 +8,7 @@ class ApagarPCApp:
       self.root = root
       self.root.title("Apagar PC")
       self.root.geometry("400x300")
+      self.root.configure(bg='white')
        
     
 def ejecutar_apagado():
