@@ -23,4 +23,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
         print(f"Respuesta del cliente: {respuesta}")
     except KeyboardInterrupt:
         print("\nServidor detenido.")
-      La documentació
+      La documentac
