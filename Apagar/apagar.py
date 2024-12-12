@@ -6,7 +6,7 @@ import re  # Para validar la IP
 class ApagarPCApp:
    def __init__(self, root):
       self.root = root
-    ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+      self.root.title("Apagar PC")
     ssh_client.connect(hostname=host, username=usuario, password=contraseña)
     stdin, stdout, stderr = ssh_client.exec_command(comando)
     stdin.write(contraseña + '\n')
