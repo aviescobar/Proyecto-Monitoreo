@@ -4,7 +4,7 @@ from tkinter import messagebox
 import re  # Para validar la IP
 
 class ApagarPCApp:
-  try:
+   def __init__(self, root):
     ssh_client = paramiko.SSHClient()
     ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh_client.connect(hostname=host, username=usuario, password=contraseña)
