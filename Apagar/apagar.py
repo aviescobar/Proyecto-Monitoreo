@@ -7,16 +7,8 @@ class ApagarPCApp:
    def __init__(self, root):
       self.root = root
       self.root.title("Apagar PC")
-    ssh_client.connect(hostname=host, username=usuario, password=contraseña)
-    stdin, stdout, stderr = ssh_client.exec_command(comando)
-    stdin.write(contraseña + '\n')
-    stdin.flush()
-    salida = stdout.read().decode("utf-8")
-    error = stderr.read().decode("utf-8")
-    ssh_client.close()
-    return salida, error
-  except Exception as e:
-    return None, str(e)
+      self.root.geometry("400x300")
+       
     
 def ejecutar_apagado():
   host = host_entry.get()
