@@ -12,7 +12,7 @@ class ApagarPCApp:
 
       # Título
       titulo = tk.Label(self.root, text="Apagar PC Remoto", font=("Arial", 16, "bold"), bg='white', fg='black')
-      
+      titulo.pack(pady=10)
 
 
   salida, error = ejecutar_comando_ssh(host, usuario, contraseña, comando_contraseña)
