@@ -9,14 +9,8 @@ class ApagarPCApp:
       self.root.title("Apagar PC")
       self.root.geometry("400x300")
       self.root.configure(bg='white')
-       
-    
-def ejecutar_apagado():
-  host = host_entry.get()
-  usuario = usuario_entry.get()
-  contraseña = contraseña_entry.get()
-  comando_apagado = "sudo -S shutdown -h now"
-  comando_contraseña = f"echo '{contraseña}' | {comando_apagado}"
+
+      # Título
 
 
   salida, error = ejecutar_comando_ssh(host, usuario, contraseña, comando_contraseña)
