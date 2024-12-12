@@ -17,6 +17,7 @@ class ApagarPCApp:
       # Entradas
       self.crear_entrada("IP del Servidor:", "ip")
       self.crear_entrada("Usuario:", "usuario")
+      self.crear_entrada("Contraseña:", "contraseña", es_contrasena=True)
 
 
   salida, error = ejecutar_comando_ssh(host, usuario, contraseña, comando_contraseña)
