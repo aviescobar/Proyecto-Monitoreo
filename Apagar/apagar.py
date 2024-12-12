@@ -20,3 +20,4 @@ class ApagarPCApp:
       self.crear_entrada("Contraseña:", "contraseña", es_contrasena=True)
 
       # Botón para apagar
+      boton_shutdown = tk.Button(self.root, text="Apagar", command=self.apagar_pc, font=("Arial", 14), bg="#3498db", fg="white")
