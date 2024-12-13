@@ -83,6 +83,8 @@ class ApagarPCApp:
 if __name__ == "__main__":
    ventana = tk.Tk()
    app = ApagarPCApp(ventana)
+   ventana.mainloop()
+
 
 
 
