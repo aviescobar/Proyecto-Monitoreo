@@ -20,4 +20,5 @@ def run_receiver():
         packed_msg_size = data[:payload_size]
         data = data[payload_size:]
         msg_size = struct.unpack(">L", packed_msg_size)[0]
+        print("Tamaño de imagen recibida en el receptor (esperado):", msg_size)
         
