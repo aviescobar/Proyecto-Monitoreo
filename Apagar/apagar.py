@@ -56,6 +56,8 @@ class ApagarPCApp:
          messagebox.showerror("Error", "Todos los campos son obligatorios.")
          return
 
+      try:
+
 
 
 
