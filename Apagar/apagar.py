@@ -34,6 +34,7 @@ class ApagarPCApp:
       entrada.pack(side=tk.LEFT, padx=5)
 
       setattr(self, f"entrada_{atributo}", entrada)
+   def validar_ip(self, ip):
 
 
 
