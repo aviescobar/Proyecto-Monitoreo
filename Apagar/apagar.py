@@ -44,6 +44,7 @@ class ApagarPCApp:
       return True
 
    def apagar_pc(self):
+      """Apaga un equipo remoto usando SSH."""
 
 
 
