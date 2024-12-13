@@ -29,3 +29,5 @@ class ApagarPCApp:
 
       label = tk.Label(frame, text=texto, font=("Arial", 12), bg='white', fg='black')
       label.pack(side=tk.LEFT)
+
+      entrada = Entry(frame, font=("Arial", 12), bg='white', fg='black', show="*" if es_contrasena else "")
