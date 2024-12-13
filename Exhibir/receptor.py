@@ -31,3 +31,4 @@ def run_receiver():
         print("Tamaño de datos de imagen recibidos en el receptor (real):", len(frame_data))
 
          # Decodificar y mostrar la imagen
+        img = cv2.imdecode(np.frombuffer(frame_data, dtype=np.uint8), cv2.IMREAD_COLOR)
