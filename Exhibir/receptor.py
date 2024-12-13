@@ -10,3 +10,5 @@ def run_receiver():
 
   data = b""
   payload_size = struct.calcsize(">L")
+  
+  try:
