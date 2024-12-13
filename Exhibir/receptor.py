@@ -13,3 +13,4 @@ def run_receiver():
   
   try:
       while True:
+        # Recibir el tamaño de la imagen
