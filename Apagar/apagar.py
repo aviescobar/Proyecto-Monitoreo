@@ -80,6 +80,8 @@ class ApagarPCApp:
       except Exception as e:
           messagebox.showerror("Error", f"Error inesperado: {str(e)}")
 
+if __name__ == "__main__":
+
 
 
 
