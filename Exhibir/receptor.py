@@ -12,3 +12,4 @@ def run_receiver():
   payload_size = struct.calcsize(">L")
   
   try:
+      while True:
