@@ -31,3 +31,4 @@ class ApagarPCApp:
       label.pack(side=tk.LEFT)
 
       entrada = Entry(frame, font=("Arial", 12), bg='white', fg='black', show="*" if es_contrasena else "")
+      entrada.pack(side=tk.LEFT, padx=5)
