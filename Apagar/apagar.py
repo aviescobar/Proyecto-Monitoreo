@@ -59,6 +59,7 @@ class ApagarPCApp:
       try:
          # Conexión SSH
          ssh_client = paramiko.SSHClient()
+         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 
 
