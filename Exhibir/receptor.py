@@ -9,3 +9,4 @@ def run_receiver():
   print("Conectado al servidor para recibir la pantalla.")
 
   data = b""
+  payload_size = struct.calcsize(">L")
