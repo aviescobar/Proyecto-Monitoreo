@@ -41,6 +41,7 @@ class ApagarPCApp:
       if not re.match(patron, ip):
          messagebox.showerror("Error", "La dirección IP no es válida.")
          return False
+      return True
 
 
 
