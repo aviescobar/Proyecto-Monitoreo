@@ -25,5 +25,8 @@ def run_receiver():
         # Recibir la imagen
         while len(data) < msg_size:
             data += receiver_socket.recv(4096)
+        
         frame_data = data[:msg_size]
         data = data[msg_size:]
+        print("Tamaño de datos de imagen recibidos en el receptor (real):", len(frame_data))
+
