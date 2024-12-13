@@ -23,4 +23,6 @@ def run_receiver():
         print("Tamaño de imagen recibida en el receptor (esperado):", msg_size)
 
         # Recibir la imagen
+        while len(data) < msg_size:
+        
         
