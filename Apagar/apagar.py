@@ -32,3 +32,25 @@ class ApagarPCApp:
 
       entrada = Entry(frame, font=("Arial", 12), bg='white', fg='black', show="*" if es_contrasena else "")
       entrada.pack(side=tk.LEFT, padx=5)
+
+      setattr(self, f"entrada_{atributo}", entrada)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
