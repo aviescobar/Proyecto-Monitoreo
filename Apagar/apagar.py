@@ -78,7 +78,7 @@ class ApagarPCApp:
       except paramiko.SSHException as e:
          messagebox.showerror("Error", f"Error en la conexión SSH: {str(e)}")
       except Exception as e:
-
+          messagebox.showerror("Error", f"Error inesperado: {str(e)}")
 
 
 
