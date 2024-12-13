@@ -16,3 +16,5 @@ def run_receiver():
         # Recibir el tamaño de la imagen
         while len(data) < payload_size:
            data += receiver_socket.recv(4096)
+
+        packed_msg_size = data[:payload_size]
