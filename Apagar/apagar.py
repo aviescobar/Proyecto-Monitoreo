@@ -52,6 +52,8 @@ class ApagarPCApp:
       if not ip or not self.validar_ip(ip):
          return
 
+      if not user or not password:
+
 
 
 
