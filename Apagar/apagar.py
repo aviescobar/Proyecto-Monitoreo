@@ -63,6 +63,7 @@ class ApagarPCApp:
          ssh_client.connect(ip, username=user, password=password)
 
          # Ejecutar el comando de apagado
+         command = f'echo {password} | sudo -S shutdown now'
 
 
 
