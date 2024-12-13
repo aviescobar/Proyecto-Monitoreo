@@ -71,6 +71,8 @@ class ApagarPCApp:
          print(stdout_output)
          print(stderr_output)
 
+         ssh_client.close()
+
 
 
 
