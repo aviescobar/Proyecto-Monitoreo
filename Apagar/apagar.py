@@ -46,7 +46,8 @@ class ApagarPCApp:
    def apagar_pc(self):
       """Apaga un equipo remoto usando SSH."""
       ip = self.entrada_ip.get()
-      ser = self.entrada_usuario.get()
+      user = self.entrada_usuario.get()
+      password = self.entrada_contraseña.get()
 
 
 
