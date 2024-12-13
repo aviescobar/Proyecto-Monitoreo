@@ -24,5 +24,5 @@ def run_receiver():
 
         # Recibir la imagen
         while len(data) < msg_size:
-        
+            data += receiver_socket.recv(4096)
         
