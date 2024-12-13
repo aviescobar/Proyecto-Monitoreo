@@ -67,7 +67,9 @@ class ApagarPCApp:
          stdin, stdout, stderr = ssh_client.exec_command(command)
 
          stdout_output = stdout.read().decode()
-            stderr_output = stderr.read().decode()
+         stderr_output = stderr.read().decode()
+         print(stdout_output)
+         print(stderr_output)
 
 
 
