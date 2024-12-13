@@ -38,6 +38,7 @@ class ApagarPCApp:
    def validar_ip(self, ip):
       """Valida si la IP tiene un formato correcto."""
       patron = r"^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$"
+      if not re.match(patron, ip):
 
 
 
