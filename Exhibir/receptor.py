@@ -30,3 +30,4 @@ def run_receiver():
         data = data[msg_size:]
         print("Tamaño de datos de imagen recibidos en el receptor (real):", len(frame_data))
 
+         # Decodificar y mostrar la imagen
