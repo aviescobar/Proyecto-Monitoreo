@@ -50,6 +50,7 @@ class ApagarPCApp:
       password = self.entrada_contraseña.get()
 
       if not ip or not self.validar_ip(ip):
+         return
 
 
 
