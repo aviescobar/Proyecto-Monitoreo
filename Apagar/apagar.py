@@ -43,6 +43,8 @@ class ApagarPCApp:
          return False
       return True
 
+   def apagar_pc(self):
+
 
 
 
