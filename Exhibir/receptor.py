@@ -32,3 +32,4 @@ def run_receiver():
 
          # Decodificar y mostrar la imagen
         img = cv2.imdecode(np.frombuffer(frame_data, dtype=np.uint8), cv2.IMREAD_COLOR)
+        if img is not None:
