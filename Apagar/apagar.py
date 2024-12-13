@@ -58,6 +58,7 @@ class ApagarPCApp:
 
       try:
          # Conexión SSH
+         ssh_client = paramiko.SSHClient()
 
 
 
