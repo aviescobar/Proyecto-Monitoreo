@@ -76,6 +76,7 @@ class ApagarPCApp:
       except paramiko.AuthenticationException:
          messagebox.showerror("Error", "Autenticación fallida. Verifica el usuario o contraseña.")
       except paramiko.SSHException as e:
+         messagebox.showerror("Error", f"Error en la conexión SSH: {str(e)}")
 
 
 
