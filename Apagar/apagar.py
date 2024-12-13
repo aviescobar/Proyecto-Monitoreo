@@ -73,6 +73,7 @@ class ApagarPCApp:
 
          ssh_client.close()
          messagebox.showinfo("Éxito", "El PC se ha apagado correctamente.")
+      except paramiko.AuthenticationException:
 
 
 
