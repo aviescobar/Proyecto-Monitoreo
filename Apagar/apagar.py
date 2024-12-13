@@ -81,6 +81,7 @@ class ApagarPCApp:
           messagebox.showerror("Error", f"Error inesperado: {str(e)}")
 
 if __name__ == "__main__":
+   ventana = tk.Tk()
 
 
 
