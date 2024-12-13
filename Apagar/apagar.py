@@ -53,6 +53,7 @@ class ApagarPCApp:
          return
 
       if not user or not password:
+         messagebox.showerror("Error", "Todos los campos son obligatorios.")
 
 
 
