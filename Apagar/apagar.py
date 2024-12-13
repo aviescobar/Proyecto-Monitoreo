@@ -57,6 +57,7 @@ class ApagarPCApp:
          return
 
       try:
+         # Conexión SSH
 
 
 
