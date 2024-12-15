@@ -35,3 +35,27 @@ def run_receiver():
         if img is not None:
         img_resized = cv2.resize(img, (800, 450))  # Ajusta el tamaño de la ventana de visualización
         cv2.imshow("Pantalla Remota en el Receptor", img_resized)
+
+        else:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
