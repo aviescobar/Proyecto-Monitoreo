@@ -10,3 +10,4 @@ client_socket.connect((HOST, PORT))
 
 # Función para recibir mensajes del servidor
 def recibir_mensajes():
+  while True:
