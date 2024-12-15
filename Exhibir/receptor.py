@@ -42,6 +42,8 @@ def run_receiver():
         if cv2.waitKey(1) == 27:   # Presiona ESC para salir
           break
 
+  except KeyboardInterrupt:
+
 
 
 
