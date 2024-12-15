@@ -44,6 +44,7 @@ def run_receiver():
 
   except KeyboardInterrupt:
     print("Visualización detenida.")
+  finally:
 
 
 
