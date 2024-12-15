@@ -18,3 +18,4 @@ def recibir_mensajes():
         break
     print(f"Servidor: {msg_from_server}")
 # Función para enviar mensajes al servidor
+def enviar_mensajes():
