@@ -33,8 +33,8 @@ def run_receiver():
          # Decodificar y mostrar la imagen
         img = cv2.imdecode(np.frombuffer(frame_data, dtype=np.uint8), cv2.IMREAD_COLOR)
         if img is not None:
-        img_resized = cv2.resize(img, (800, 450))  # Ajusta el tamaño de la ventana de visualización
-        cv2.imshow("Pantalla Remota en el Receptor", img_resized)
+            img_resized = cv2.resize(img, (800, 450))  # Ajusta el tamaño de la ventana de visualización
+            cv2.imshow("Pantalla Remota en el Receptor", img_resized)
 
         else:
 
