@@ -39,6 +39,8 @@ def run_receiver():
         else:
           print("Error en la decodificación de la imagen en el receptor.")
 
+        if cv2.waitKey(1) == 27:  
+
 
 
 
