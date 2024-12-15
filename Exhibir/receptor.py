@@ -49,6 +49,7 @@ def run_receiver():
     cv2.destroyAllWindows()
     print("Conexión cerrada.")
 if __name__ == "__main__":
+  run_receiver()
 
 
 
