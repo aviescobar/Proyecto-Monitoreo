@@ -15,3 +15,4 @@ def recibir_mensajes():
       if msg_from_server.lower() == 'exit':
         print("Servidor desconectado")
         client_socket.close()
+        break
