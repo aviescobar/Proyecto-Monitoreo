@@ -40,6 +40,7 @@ def run_receiver():
           print("Error en la decodificación de la imagen en el receptor.")
 
         if cv2.waitKey(1) == 27:   # Presiona ESC para salir
+          break
 
 
 
