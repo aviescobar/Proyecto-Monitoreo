@@ -14,3 +14,4 @@ def recibir_mensajes():
       msg_from_server = client_socket.recv(1024).decode()
       if msg_from_server.lower() == 'exit':
         print("Servidor desconectado")
+        client_socket.close()
