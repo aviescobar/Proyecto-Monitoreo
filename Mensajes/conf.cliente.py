@@ -16,3 +16,4 @@ def recibir_mensajes():
         print("Servidor desconectado")
         client_socket.close()
         break
+    print(f"Servidor: {msg_from_server}")
