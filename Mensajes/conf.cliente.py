@@ -9,3 +9,4 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))
 
 # Función para recibir mensajes del servidor
+def recibir_mensajes():
