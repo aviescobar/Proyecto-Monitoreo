@@ -17,5 +17,6 @@ def recibir_mensajes():
         client_socket.close()
         break
     print(f"Servidor: {msg_from_server}")
+
 # Función para enviar mensajes al servidor
 def enviar_mensajes():
