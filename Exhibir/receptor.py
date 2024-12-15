@@ -46,6 +46,7 @@ def run_receiver():
     print("Visualización detenida.")
   finally:
     receiver_socket.close()
+    cv2.destroyAllWindows()
 
 
 
