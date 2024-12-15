@@ -7,3 +7,5 @@ PORT = 12345      # Puerto del servidor
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))
+
+# Función para recibir 
