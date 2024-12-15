@@ -12,3 +12,4 @@ client_socket.connect((HOST, PORT))
 def recibir_mensajes():
   while True:
       msg_from_server = client_socket.recv(1024).decode()
+      if msg_from_server.lower() == 'exit':
