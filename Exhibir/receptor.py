@@ -37,6 +37,7 @@ def run_receiver():
             cv2.imshow("Pantalla Remota en el Receptor", img_resized)
 
         else:
+          print("Error en la decodificación de la imagen en el receptor.")
 
 
 
