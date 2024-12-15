@@ -48,6 +48,7 @@ def run_receiver():
     receiver_socket.close()
     cv2.destroyAllWindows()
     print("Conexión cerrada.")
+if __name__ == "__main__":
 
 
 
