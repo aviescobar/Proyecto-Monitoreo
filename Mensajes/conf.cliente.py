@@ -30,4 +30,4 @@ def enviar_mensajes():
 
 # Iniciar hilos para enviar y recibir mensajes simultaneamente
 threading.Thread(target=recibir_mensajes).start()
-threading.Thread(target=
+threading.Thread(target=enviar_
