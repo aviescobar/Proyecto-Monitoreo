@@ -20,3 +20,4 @@ def recibir_mensajes():
 
 # Función para enviar mensajes al servidor
 def enviar_mensajes():
+  while True:
