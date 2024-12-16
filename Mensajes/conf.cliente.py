@@ -27,3 +27,5 @@ def enviar_mensajes():
           print("Desconectado del servidor")
           client_socket.close()
           break
+
+# Iniciar
