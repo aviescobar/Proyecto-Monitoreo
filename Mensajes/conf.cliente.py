@@ -22,3 +22,4 @@ def recibir_mensajes():
 def enviar_mensajes():
   while True:
       msg_to_server = input("Tú: ")
+      client_socket.send(msg_to_server.encode())
