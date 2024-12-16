@@ -26,3 +26,4 @@ def enviar_mensajes():
       if msg_to_server.lower() == 'exit':
           print("Desconectado del servidor")
           client_socket.close()
+          break
