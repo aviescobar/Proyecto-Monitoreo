@@ -28,4 +28,4 @@ def enviar_mensajes():
           client_socket.close()
           break
 
-# Iniciar hilos para enviar y recibir mensajes simulta
+# Iniciar hilos para enviar y recibir mensajes simultanea
