@@ -29,4 +29,4 @@ def enviar_mensajes():
           break
 
 # Iniciar hilos para enviar y recibir mensajes simultaneamente
-threading.Thread(target=recibir_mensajes)
+threading.Thread(target=recibir_mensajes).start
