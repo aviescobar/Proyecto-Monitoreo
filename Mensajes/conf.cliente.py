@@ -21,12 +21,12 @@ def recibir_mensajes():
 # Función para enviar mensajes al servidor
 def enviar_mensajes():
     while True:
-      msg_to_server = input("Tú: ")
-      client_socket.send(msg_to_server.encode())
-      if msg_to_server.lower() == 'exit':
-          print("Desconectado del servidor")
-          client_socket.close()
-          break
+        msg_to_server = input("Tú: ")
+        client_socket.send(msg_to_server.encode())
+        if msg_to_server.lower() == 'exit':
+            print("Desconectado del servidor")
+            client_socket.close()
+            break
 
 # Iniciar hilos para enviar y recibir mensajes simultaneamente
 threading.Thread(target=recibir_mensajes).start()
