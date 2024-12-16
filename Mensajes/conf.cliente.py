@@ -23,3 +23,4 @@ def enviar_mensajes():
   while True:
       msg_to_server = input("Tú: ")
       client_socket.send(msg_to_server.encode())
+      if msg_to_server.lower() == 'exit':
