@@ -2,4 +2,4 @@ import socket
 import mss
 import pickle
 import struct
-import numpy as np
+import numpy as np  # Importa
