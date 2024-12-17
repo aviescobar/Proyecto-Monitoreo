@@ -4,4 +4,4 @@ import pickle
 import struct
 import numpy as np  # Importa numpy para la conversion de la imagen
 
-def start_
+def start_server
