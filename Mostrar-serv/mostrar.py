@@ -12,7 +12,7 @@ def start_server(host='0.0.0.0', port=9999):
 
   print(f"[INFO] Servidor escuchando en {host}:{port}")
 
-  # acepptar co
+  # acepptar cone
 
   try:
     with mss.
