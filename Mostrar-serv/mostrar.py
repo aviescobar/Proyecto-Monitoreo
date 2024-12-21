@@ -10,4 +10,6 @@ def start_server(host='0.0.0.0', port=9999):
   server_socket.bind((host, port))
   server_socket.listen(1)
 
-print(f"[INFO] Servidor escuchando en {host}:{port}")
+  print(f"[INFO] Servidor escuchando en {host}:{port}")
+
+  try:
